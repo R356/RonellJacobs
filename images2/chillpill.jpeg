@@ -1,0 +1,29 @@
+ <!doctype html>
+<html dir="ltr" lang="en">
+<head>
+<link rel="preload" href="https://shopfront.takealot.com/static/js/app-loader.js" as="script">
+<link rel="preconnect" href="//media.takealot.com" crossorigin>
+<link rel="preconnect" href="https://shopfront.takealot.com" crossorigin>
+<link rel="preconnect" href="//api.takealot.com" crossorigin>
+<link rel="preconnect" href="//static.takealot.com" crossorigin>
+<title>Takealot</title>
+<link rel="shortcut icon" href="https://www.takealot.com/favicon.ico?20110717" type="image/x-icon" />
+<meta property="twitter:account_id" content="4503599630296419" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<style>
+        html, body {
+          background-color: #f4f4f4;
+        }
+        .sf {
+          min-height: 400px;
+        }
+      </style>
+</head>
+<body id="body">
+<div class="sf " id="shopfront-app"></div>
+<script src="https://shopfront.takealot.com/static/js/app-loader.js" onload="window.loadShopfront('https://shopfront.takealot.com');" type="text/javascript">
+      </script>
+</body>
+</html>
